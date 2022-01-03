@@ -1,0 +1,39 @@
+{
+  "name": "WEBPACK_PROJECT",
+  "version": "1.0.0",
+  "description": "WEPACK_PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write src",
+    "lint": "eslint src",
+    "build": "webpack --config webpack.config.js --env title='WEBPACK_PROJECT' --env production",
+    "dev": "webpack serve --open --env title='WEBPACK_PROJECT Dev' --env development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zleinweber/webpack_starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zleinweber/webpack_starter/issues"
+  },
+  "homepage": "https://github.com/zleinweber/webpack_starter#readme",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "csv-loader": "^3.0.3",
+    "eslint": "^8.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "prettier": "^2.4.1",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "stylelint": "^13.13.1",
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1",
+    "xml-loader": "^1.2.1"
+  }
+}
