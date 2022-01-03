@@ -1,5 +1,5 @@
 {
-  "name": "WEBPACK_PROJECT",
+  "name": "tasklee",
   "version": "1.0.0",
   "description": "WEPACK_PROJECT",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write src",
     "lint": "eslint src",
-    "build": "webpack --config webpack.config.js --env title='WEBPACK_PROJECT' --env production",
-    "dev": "webpack serve --open --env title='WEBPACK_PROJECT Dev' --env development"
+    "build": "webpack --config webpack.config.js --env title='tasklee' --env production",
+    "dev": "webpack serve --open --env title='tasklee Dev' --env development"
   },
   "repository": {
     "type": "git",

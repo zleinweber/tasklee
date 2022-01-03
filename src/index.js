@@ -1,7 +1,7 @@
 function helloWorld() {
   const element = document.createElement("div");
 
-  element.innerHTML = "WEBPACK_PROJECT Hello World!!";
+  element.innerHTML = "tasklee Hello World!!";
 
   return element;
 }
